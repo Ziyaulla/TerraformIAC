@@ -1,2 +1,2 @@
 # TerraformIAC
-Code station for all terraform files for references
+Code station for all terraform files to reference
