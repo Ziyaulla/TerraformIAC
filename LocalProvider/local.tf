@@ -34,3 +34,14 @@ resource "local_file" "Create_file" {
   filename = "./Outputs/Multi.txt"
   content  = random_pet.pet_name.id
 }
+
+
+//Resource for using time values - Time_statis doesn't require any arguments and it takes the current time.
+
+resource "time_static" "timeNow" {
+  
+}
+
+output "currentTime" {
+  value = time_static.timeNow
+}
