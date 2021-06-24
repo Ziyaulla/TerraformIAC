@@ -36,7 +36,7 @@ resource "local_file" "Create_file" {
 }
 
 
-//Resource for using time values - Time_statis doesn't require any arguments and it takes the current time.
+//Resource for using static time values - Time_static doesn't require any arguments and it takes the current time.
 
 resource "time_static" "timeNow" {
   
