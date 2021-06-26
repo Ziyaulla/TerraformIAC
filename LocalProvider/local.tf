@@ -45,3 +45,4 @@ resource "time_static" "timeNow" {
 output "currentTime" {
   value = time_static.timeNow
 }
+
