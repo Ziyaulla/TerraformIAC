@@ -1,3 +1,3 @@
 output "name" {
-  value = local_file.filename.file_permission
+  value = local_file.file.file_permission
 }
