@@ -33,3 +33,10 @@ resource "local_file" "ListOfStrings" {
   filename = "./Outputs/ListOfStrings.txt"
   content = "${var.StringSet[0]} and ${var.StringSet[1]}, always keep ${var.StringSet[2]}!!"
 }
+
+// Multi string variable
+
+resource "local_file" "MultiVar" {
+  filename = "./Outputs/multivar.txt"
+  content = var.multiVar
+}

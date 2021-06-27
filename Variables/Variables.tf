@@ -36,3 +36,11 @@ variable "StringSet" {
   type = list(string)
   default = [ "Ziya","Dhoni","Smiling" ]
 }
+
+variable "multiVar" {
+  type = string
+  default = <<EOF
+This is multi line string.
+And can be used mostly in case of writing userdata...
+EOF
+}
