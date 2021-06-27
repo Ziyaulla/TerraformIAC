@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"sample_module","Source":"./local_module","Dir":"local_module"}]}
+{"Modules":[{"Key":"variableExtend","Source":"./variables_module","Dir":"variables_module"},{"Key":"fileExtend","Source":"./local_m2","Dir":"local_m2"},{"Key":"","Source":"","Dir":"."},{"Key":"sample_module","Source":"./local_module","Dir":"local_module"}]}
